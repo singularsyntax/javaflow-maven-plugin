@@ -1,6 +1,19 @@
 Javaflow Maven Plugin
 =====================
 
+DEPRECATION
+-----------
+
+Javaflow Maven Plugin and its companion project [Concurrency-Utils](https://github.com/singularsyntax/concurrency-utils) are no longer under development,
+owing to the availability of [Quasar](http://docs.paralleluniverse.co/quasar/),
+an excellent library under active development (and commercially supported)
+which provides highly polished APIs for continuations, lightweight threads, and
+Golang-like [CSP](https://en.wikipedia.org/wiki/Communicating_sequential_processes) channels to JVM programming environments.
+
+
+SYNOPSIS
+--------
+
 Maven plugin that enhances Java class files with Javaflow instrumentation.
 Javaflow is a library providing a continuations API for Java, accomplished
 via bytecode enhancement which modifies the ordinary control flow of method
